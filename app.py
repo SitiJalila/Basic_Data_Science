@@ -4,12 +4,6 @@ import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder
 
-# Memasang Streamlit jika belum terinstal
-try:
-    import streamlit
-except ImportError:
-    !pip install streamlit
-    import streamlit
 
 # --- 1. Muat objek yang telah disimpan --- 
 @st.cache_resource
